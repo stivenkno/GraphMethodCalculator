@@ -62,6 +62,13 @@ export default function App() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', padding: '20px', gap: '20px', fontFamily: 'sans-serif' }}>
       <h1>Interactive Linear Programming Solver</h1>
+      <button
+        type="button"
+        onClick={() => window.history.back()}
+        className="inline-flex items-center gap-2 rounded-lg border border-border bg-background px-4 py-2 text-sm font-medium text-foreground transition hover:bg-muted"
+      >
+        Volver
+      </button>
       <p>Graphical Method</p>
       
       <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
